@@ -1,0 +1,19 @@
+$black: #15202b;
+$darkner: lighten($black, 5%);
+$darker: lighten($black, 8%);
+$dark: lighten($black, 10%);
+
+$white: #ebeef0;
+$lightner: darken($white, 5%);
+$lighter: darken($white, 8%);
+$light: darken($white, 10%);
+
+$maincolor: #17bf63;
+
+$iconsize: 40px;
+$bigiconsize: $iconsize * 5;
+$smalliconsize: $iconsize * 0.75;
+$iconfont: "Material Icons";
+
+$mainfont: "Open Sans", sans-serif;
+$googlemainfont: "Open+Sans:300,400,600,700,800";

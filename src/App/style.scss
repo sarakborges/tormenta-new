@@ -1,0 +1,11 @@
+@import "src/Shared/style.scss";
+@import url("https://fonts.googleapis.com/css?family=#{$googlemainfont}&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  background: $black;
+
+  font-family: $mainfont;
+  font-size: 14px;
+  color: $white;
+}

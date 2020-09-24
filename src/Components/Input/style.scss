@@ -1,0 +1,28 @@
+@import "src/Shared/style.scss";
+
+.input {
+  display: block;
+
+  width: 100%;
+  padding: 8px 10px;
+
+  color: $black;
+
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background: $lighter;
+
+  transition: border-color 0.3s;
+
+  &:focus {
+    border-color: $maincolor;
+  }
+}
+
+.lightsoff {
+  .input {
+    background: $dark;
+
+    color: $white;
+  }
+}

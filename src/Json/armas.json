@@ -1,0 +1,842 @@
+{
+  "categories": [
+    {
+      "name": "Armas Simples",
+      "subcategories": [
+        {
+          "name": "Corpo-a-corpo - Leves",
+          "items": [
+            {
+              "name": "Ataque Desarmado",
+              "manual": "TormentaRPG - Edição Revisada",
+              "damage": "1d3",
+              "damageType": "Esmagamento",
+              "description": "Você pode atacar com um soco ou chute — ou qualquer outro golpe que use seu próprio corpo — como se fosse uma arma corpo-a-corpo. No entanto, um ataque desarmado causa apenas dano não-letal. Você pode escolher ataque desarmado para talentos como Foco em Arma."
+            },
+            {
+              "name": "Adaga",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "2 PO",
+              "damage": "1d4",
+              "critical": "19-20 x2",
+              "distance": "3m",
+              "weight": "0,5kg",
+              "damageType": "Perfuração",
+              "extra": [
+                "Pode ser usado como arma de arremesso",
+                "+4 em testes de Ladinagem para escondê-la"
+              ],
+              "description": "Essa faca afiada é muito usada por ladrões e assassinos, por ser facilmente escondida. Você recebe um bônus de +4 em testes de Ladinagem para escondê-la. Uma adaga também pode ser arremessada."
+            },
+            {
+              "name": "Espada Curta",
+              "manual": "TormentaRPG - Edição Revisada",
+              "damage": "1d6",
+              "price": "10 PO",
+              "critical": "19-20 x2",
+              "weight": "1kg",
+              "damageType": "Perfuração",
+              "description": "É o tipo mais comum de espada, muito usada por soldados, legionários e guardas de milícia — ou como arma secundária. Mede entre 40 e 50cm de comprimento."
+            },
+            {
+              "name": "Manopla",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "5 PO",
+              "damage": "1d4",
+              "damageType": "Esmagamento",
+              "weight": "1kg",
+              "description": "Luva metálica que protege a mão e também permite socos mais fortes. Uma armadura completa inclui um par de manoplas. Você não pode ser desarmado quando usa esta arma."
+            }
+          ]
+        },
+        {
+          "name": "Corpo-a-corpo - Uma mão",
+          "items": [
+            {
+              "name": "Clava",
+              "manual": "TormentaRPG - Edição Revisada",
+              "damage": "1d6",
+              "damageType": "Esmagamento",
+              "weight": "1,5kg",
+              "description": "Um pedaço de madeira empunhado como arma, geralmente usado por bárbaros ou criaturas brutais — ou como arma improvisada, como um galho de árvore ou pedaço de mobília. Sendo fácil de conseguir, seu preço é zero."
+            },
+            {
+              "name": "Lança",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "2 PO",
+              "damage": "1d6",
+              "distance": "6m",
+              "weight": "1,5kg",
+              "extra": ["Pode ser usado como arma de arremesso"],
+              "damageType": "Perfuração",
+              "description": "“Lança” é o nome de qualquer arma feita com uma haste de madeira e uma ponta afiada, natural ou metálica. Por sua facilidade de fabricação, é muito comum entre orcs, kobolds e outras raças menos civilizadas. Uma lança pode ser arremessada."
+            },
+            {
+              "name": "Maça",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "12 PO",
+              "damage": "1d8",
+              "damageType": "Esmagamento",
+              "weight": "6kg",
+              "description": "Bastão metálico com um peso cheio de protuberâncias na extremidade, a maça é muito usada por clérigos que fazem votos de não derramar sangue. De fato, um golpe de maça nem sempre derrama sangue, mas esmaga ossos..."
+            }
+          ]
+        },
+        {
+          "name": "Corpo-a-corpo - Duas mãos",
+          "items": [
+            {
+              "name": "Bordão",
+              "manual": "TormentaRPG - Edição Revisada",
+              "damage": "1d6/1d6",
+              "damageType": "Esmagamento",
+              "extra": ["Arma de monge", "Arma dupla"],
+              "weight": "2kg",
+              "description": "Um cajado apreciado por viajantes e camponeses. O bordão é uma arma dupla (você pode usá-lo com os talentos Combater com Duas Armas e Bloqueio Ambidestro). O bordão é também uma arma de monge (significa que pode ser usado com determinadas habilidades, como a rajada de golpes)."
+            },
+            {
+              "name": "Pique",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "2 PO",
+              "damage": "1d8",
+              "extra": ["Arma de haste"],
+              "weight": "5kg",
+              "damageType": "Perfuração",
+              "description": "Essencialmente uma lança muito longa, é a arma perfeita para guardas medrosos, que não querem ficar perto de seus inimigos. O pique é uma arma de haste."
+            },
+            {
+              "name": "Tacape",
+              "manual": "TormentaRPG - Edição Revisada",
+              "damage": "1d10",
+              "weight": "4kg",
+              "damageType": "Esmagamento",
+              "description": "Versão mais perigosa da clava, maior e/ou com pregos. Não é uma arma muito elegante, mas faz o serviço."
+            }
+          ]
+        },
+        {
+          "name": "Ataque à distância",
+          "items": [
+            {
+              "name": "Ácido",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "10 PO",
+              "damage": "2d4",
+              "distance": "3m",
+              "weight": "0,5kg",
+              "damageType": "Ácido",
+              "extra": [
+                "Ataque de toque à distância ao invés de ataque normal"
+              ],
+              "description": "Um frasco de vidro contendo um ácido alquímico altamente corrosivo. Você atira o frasco, fazendo um ataque de toque à distância. Se você acertar, o alvo sofre 2d4 pontos de dano de ácido. Se errar, ele sofre metade desse dano."
+            },
+            {
+              "name": "Água Benta",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "25 PO",
+              "damage": "2d6",
+              "distance": "3m",
+              "weight": "0,5kg",
+              "extra": [
+                "Ataque de toque à distância ao invés de ataque normal"
+              ],
+              "damageType": "Especial",
+              "description": "Criada por clérigos e vendida em pequenos frascos, a água benta é uma poderosa arma contra mortos-vivos e espíritos Malignos (mas é inofensiva contra outras criaturas). Você atira o frasco, fazendo um ataque de toque à distância. Se acertar, o alvo sofre 2d6 pontos de dano. Se errar, ele sofre metade desse dano."
+            },
+            {
+              "name": "Arco Curto",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "30 PO",
+              "critical": "20 x3",
+              "distance": "12m",
+              "weight": "1kg",
+              "damage": "1d6",
+              "damageType": "Perfuração",
+              "description": "Este arco bastante comum é próprio para caçadas, muito usado por povos selvagens ou caçadores — o tamanho pequeno é apropriado para manuseio em florestas e outros ambientes fechados. Exige as duas mãos.",
+              "ammo": {
+                "name": "Flechas (20)",
+                "manual": "TormentaRPG - Edição Revisada",
+                "price": "1 PO",
+                "weight": "1,5kg",
+                "description": "Hastes de madeira com ponta metálica e penas para estabilizar o voo, flechas são vendidas em aljavas com 20 unidades. Recarregar um arco com uma flecha é uma ação livre."
+              }
+            },
+            {
+              "name": "Azagaia",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "1 PO",
+              "damage": "1d6",
+              "distance": "9m",
+              "weight": "1kg",
+              "damageType": "Perfuração",
+              "extra": [
+                "Pode ser usado como arma de arremesso",
+                "-4 em jogadas de ataque corpo-a-corpo"
+              ],
+              "description": "Uma lança leve e flexível, própria para arremesso. Uma azagaia pode ser usada como uma arma de corpo-a-corpo, mas você sofre uma penalidade de –4 na jogada de ataque."
+            },
+            {
+              "name": "Besta Leve",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "35 PO",
+              "damage": "1d8",
+              "critical": "19-20 x2",
+              "distance": "18m",
+              "weight": "3kg",
+              "damageType": "Perfuração",
+              "description": "Um arco montado sobre uma coronha de madeira com um gatilho, a besta leve é uma arma que dispara virotes com grande potência. Recarregar uma besta leve é uma ação de movimento. Exige as duas mãos.",
+              "ammo": {
+                "name": "Virotes (10)",
+                "manual": "TormentaRPG - Edição Revisada",
+                "price": "1 PO",
+                "weight": "0,5kg",
+                "description": "Pequenas setas de madeira que servem como munição para bestas. Uma caixa com 10 virotes custa 1 TP."
+              }
+            },
+            {
+              "name": "Fogo Alquímico",
+              "manual": "TormentaRPG - Edição Revisada",
+              "damage": "1d6",
+              "price": "10 PO",
+              "damageType": "Fogo",
+              "distance": "3m",
+              "extra": [
+                "Ataque de toque à distância ao invés de ataque normal"
+              ],
+              "weight": "0,5kg",
+              "description": "Frasco contendo uma substância grossa e pegajosa, que entra em combustão em contato com o ar. Você atira o frasco, fazendo um ataque de toque à distância (ataque oposto a teste de Reflexos). Se você acertar, o alvo sofre 1d6 pontos de dano e pega fogo. Se errar, ele sofre metade desse dano e não pega fogo. Uma criatura em chamas sofre 1d6 pontos de dano no fim do seu próximo turno, a menos que apague as chamas (com uma ação completa)."
+            },
+            {
+              "name": "Funda",
+              "manual": "TormentaRPG - Edição Revisada",
+              "damage": "1d4",
+              "distance": "15m",
+              "weight": "0,25kg",
+              "damageType": "Esmagamento",
+              "extra": ["Adiciona força no dano"],
+              "description": "Uma simples tira de couro usada para arremessar balas de metal. Na falta de munição adequada, uma funda também pode disparar pedras comuns, mas o dano é reduzido para 1d3. Colocar uma bala em uma funda é uma ação de movimento. Ao contrário de outras armas de disparo, você aplica seu modificador de Força a jogadas de dano com uma funda.",
+              "ammo": {
+                "name": "Balas (10)",
+                "manual": "TormentaRPG - Edição Revisada",
+                "price": "1 TP",
+                "weight": "2kg",
+                "description": "Fundas atiram pequenas balas esféricas de metal, que são vendidas em sacos de couro contendo 10 balas por 1 TP. Recarregar uma funda com uma bala é uma ação de movimento."
+              }
+            },
+            {
+              "name": "Granada",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "50 PO",
+              "damage": "4d6",
+              "damageType": "Fogo",
+              "distance": "3m",
+              "extra": ["Dano em área"],
+              "weight": "0,5kg",
+              "description": "Popular entre goblins, mas também empregada por outros usuários de pólvora, esta bomba rudimentar tem um pavio que precisa ser aceso antes do uso (uma ação de movimento). Faça um ataque à distância. Qualquer criatura a até 3m do alvo sofre 4d6 pontos de dano (ou metade, com um teste de Reflexos, CD igual ao resultado da jogada de ataque)."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Armas Marciais",
+      "subcategories": [
+        {
+          "name": "Corpo-a-corpo - Leves",
+          "items": [
+            {
+              "name": "Escudo Leve",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "5 PO",
+              "damage": "1d4",
+              "weight": "3kg",
+              "damageType": "Esmagamento",
+              "description": "Você pode usar um escudo leve como uma arma, mas perde seu bônus na CA até o próximo turno."
+            },
+            {
+              "name": "Cestus",
+              "manual": "Guerras Táuricas",
+              "price": "5 PO",
+              "damage": "+1",
+              "weight": "0,5kg",
+              "critical": "—",
+              "damageType": "Esmagamento",
+              "description": "Uma luva de couro com espinhos, usada por pugilistas e brigões de rua. O cestus fornece um bônus de +1 nas jogadas de dano com ataques desarmados. Esta arma não pode ser desarmada."
+            },
+            {
+              "name": "Machadinha",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "6 PO",
+              "damage": "1d6",
+              "weight": "2kg",
+              "critical": "20 x3",
+              "extra": ["Pode ser usado como arma de arremesso"],
+              "distance": "3m",
+              "damageType": "Corte",
+              "description": "Ferramenta útil para cortar madeira, e também inimigos. Uma machadinha pode ser arremessada."
+            },
+            {
+              "name": "Martelo",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "1 PO",
+              "damage": "1d6",
+              "extra": ["Pode ser usado como arma de arremesso"],
+              "distance": "6m",
+              "weight": "1kg",
+              "damageType": "Esmagamento",
+              "description": "Essencialmente uma ferramenta para bater pregos, mas em caso de problemas também serve para bater em inimigos."
+            }
+          ]
+        },
+        {
+          "name": "Corpo-a-corpo - Uma mão",
+          "items": [
+            {
+              "name": "Cimitarra",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "15 PO",
+              "damage": "1d6",
+              "weight": "2kg",
+              "critical": "18-20 x2",
+              "extra": ["Acuidade"],
+              "damageType": "Corte",
+              "description": "Uma espada com a lâmina curva, leve e muito afiada. O talento Acuidade com Arma se aplica à cimitarra."
+            },
+            {
+              "name": "Gládio",
+              "manual": "Guerras Táuricas",
+              "price": "15 PO",
+              "damage": "1d6",
+              "weight": "2kg",
+              "critical": "19-20 x3",
+              "damageType": "Perfuração",
+              "description": "Uma espada de lâmina curta, mas pesada, e sem guarda. O gládio tem uma ponta muito afiada, capaz de infligir ferimentos precisos e letais. É uma das armas padrão dos legionários do Império de Tauron, junto com o pilum."
+            },
+            {
+              "name": "Escudo Pesado",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "15 PO",
+              "damage": "1d6",
+              "weight": "7kg",
+              "damageType": "Esmagamento",
+              "description": "Você pode usar um escudo pesado como uma arma, mas perde seu bônus na CA até o próximo turno."
+            },
+            {
+              "name": "Espada Longa",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "15 PO",
+              "damage": "1d8",
+              "weight": "2kg",
+              "critical": "19-20 x2",
+              "damageType": "Corte",
+              "description": "Arma típica de guerreiros humanos, mas também extremamente comum entre elfos. Esta espada de dois gumes tem lâmina reta medindo entre 80cm e 1m."
+            },
+            {
+              "name": "Florete",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "20 PO",
+              "damage": "1d6",
+              "weight": "1kg",
+              "critical": "18-20 x2",
+              "damageType": "Perfuração",
+              "extra": ["Acuidade"],
+              "description": "A lâmina leve e fina desta espada torna a arma muito precisa. O talento Acuidade com Arma se aplica ao florete."
+            },
+            {
+              "name": "Machado de Batalha",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "10 PO",
+              "damage": "1d8",
+              "weight": "3kg",
+              "critical": "20 x3",
+              "damageType": "Corte",
+              "description": "Diferente de uma machadinha, este não é um instrumento para corte de árvores, mas sim uma arma capaz de causar ferimentos terríveis."
+            },
+            {
+              "name": "Mangual",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "8 PO",
+              "damage": "1d8",
+              "weight": "2,5kg",
+              "damageType": "Esmagamento",
+              "extra": ["+4 em jogadas de desarmar"],
+              "description": "Arma composta por uma haste metálica ligada a uma corrente, que por sua vez é ligada a uma esfera de aço. O mangual pode se enroscar na arma do adversário; você recebe +4 em jogadas de ataque para desarmar."
+            },
+            {
+              "name": "Martelo de Guerra",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "12 PO",
+              "damage": "1d8",
+              "weight": "2,5kg",
+              "critical": "20 x3",
+              "damageType": "Esmagamento",
+              "description": "Outra ferramenta modificada para combate, o martelo de combate é muito eficiente contra alguns tipos de mortos-vivos, como esqueletos. É também a arma favorita de quase todos os anões que não usam machados."
+            },
+            {
+              "name": "Picareta",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "8 PO",
+              "damage": "1d6",
+              "weight": "3kg",
+              "critical": "20 x4",
+              "damageType": "Perfuração",
+              "description": "Usada por mineradores, esta ferramenta quebra pedras com facilidade. Imagine o que pode fazer com carne e osso?"
+            },
+            {
+              "name": "Tridente",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "15 PO",
+              "damage": "1d8",
+              "weight": "2kg",
+              "damageType": "Perfuração",
+              "extra": ["+4 em jogadas de derrubar"],
+              "description": "Uma lança com três pontas favorita dos gladiadores, própria para prender as pernas do oponente. Você recebe +4 em jogadas de ataque para derrubar."
+            }
+          ]
+        },
+        {
+          "name": "Corpo-a-corpo - Duas mãos",
+          "items": [
+            {
+              "name": "Alabarda",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "10 PO",
+              "damage": "1d10",
+              "weight": "6kg",
+              "critical": "20 x3",
+              "extra": ["Arma de haste"],
+              "damageType": "Corte",
+              "description": "Uma haste de madeira com 2m de comprimento e uma lâmina de machado na extremidade. A alabarda é uma arma de haste (você pode usá-la para atacar inimigos a até 3m, mas não pode usá-la contra inimigos adjacentes)."
+            },
+            {
+              "name": "Cajado de Batalha",
+              "manual": "Guerras Táuricas",
+              "price": "10 PO",
+              "damage": "1d8/1d8",
+              "weight": "4kg",
+              "damageType": "Esmagamento",
+              "extra": ["Arma dupla", "Arma de monge"],
+              "description": "Um cajado de madeira forte, reforçado com chapas de metal nas pontas. É uma arma discreta, usada por andarilhos que não querem levantar suspeitas — como rebeldes em regiões controladas pelo Império de Tauron. O cajado de batalha é uma arma dupla e uma arma de monge."
+            },
+            {
+              "name": "Alfange",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "75 PO",
+              "damage": "2d4",
+              "weight": "4kg",
+              "critical": "18-20 x2",
+              "damageType": "Corte",
+              "description": "Espada de lâmina muita larga e curva, bastante usada por guerreiros do Deserto da Perdição."
+            },
+            {
+              "name": "Espada Grande",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "50 PO",
+              "damage": "2d6",
+              "weight": "4kg",
+              "critical": "19-20 x2",
+              "damageType": "Corte",
+              "description": "Enorme e muito pesada, esta espada tem 1,5m de comprimento. É uma das armas mais poderosas que uma criatura Média consegue empuhar."
+            },
+            {
+              "name": "Foice",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "18 PO",
+              "damage": "2d4",
+              "weight": "5kg",
+              "critical": "20 x4",
+              "damageType": "Corte",
+              "description": "Diferente da ferramenta usada por fazendeiros, uma foice de combate é mais forte e balanceada."
+            },
+            {
+              "name": "Lança Montada",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "10 PO",
+              "damage": "1d8",
+              "weight": "5kg",
+              "critical": "20 x3",
+              "extra": [
+                "Arma de haste",
+                "Se o usuário estiver montado, a arma é considerada de uma mão",
+                "Causa o dobro de dano em uma investida montada"
+              ],
+              "damageType": "Perfuração",
+              "description": "Se você estiver montado, pode usar esta arma com apenas uma mão. A lança montada é uma arma de haste, e causa dano dobrado quando usada numa investida montada."
+            },
+            {
+              "name": "Machado Grande",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "20 PO",
+              "damage": "1d12",
+              "weight": "6kg",
+              "critical": "20 x3",
+              "damageType": "Corte",
+              "description": "Este imenso machado com lâmina dupla é uma das armas mais perigosas que existem."
+            },
+            {
+              "name": "Marreta",
+              "manual": "Manual do Combatente",
+              "price": "20 PO",
+              "damage": "3d4",
+              "weight": "9kg",
+              "damageType": "Esmagamento",
+              "description": "Uma arma pesada, com um cabo longo e uma cabeça maciça e quadrada de pedra ou metal. Muito usada por anões."
+            }
+          ]
+        },
+        {
+          "name": "Ataque à distância",
+          "items": [
+            {
+              "name": "Arco Composto",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "75 PO",
+              "damage": "1d6",
+              "weight": "1kg",
+              "critical": "20 x3",
+              "distance": "18m",
+              "extra": ["Adiciona força no dano"],
+              "damageType": "Perfuração",
+              "description": "Este arco é feito de chifres, madeira ou ossos laminados. Devido a isso, o arco composto dispara com mais força que um arco comum. Ao contrário de outras armas de disparo, você aplica seu modificador de Força nas jogadas de dano com um arco composto. Usar um arco composto exige as duas mãos.",
+              "ammo": {
+                "name": "Flechas (20)",
+                "manual": "TormentaRPG - Edição Revisada",
+                "price": "1 PO",
+                "weight": "1,5kg",
+                "description": "Hastes de madeira com ponta metálica e penas para estabilizar o voo, flechas são vendidas em aljavas com 20 unidades. Recarregar um arco com uma flecha é uma ação livre."
+              }
+            },
+            {
+              "name": "Arco Longo",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "100 PO",
+              "damage": "1d8",
+              "weight": "1,5kg",
+              "critical": "20 x3",
+              "distance": "24m",
+              "damageType": "Perfuração",
+              "description": "Este arco reforçado tem a altura de uma pessoa. Diferente do arco curto, é próprio para campos de batalha e outras áreas abertas — seu longo alcance permite atingir o inimigo a grandes distâncias. Exige as duas mãos.",
+              "ammo": {
+                "name": "Flechas (20)",
+                "manual": "TormentaRPG - Edição Revisada",
+                "price": "1 PO",
+                "weight": "1,5kg",
+                "description": "Hastes de madeira com ponta metálica e penas para estabilizar o voo, flechas são vendidas em aljavas com 20 unidades. Recarregar um arco com uma flecha é uma ação livre."
+              }
+            },
+            {
+              "name": "Besta Pesada",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "50 PO",
+              "damage": "1d12",
+              "weight": "4kg",
+              "critical": "19-20 x2",
+              "distance": "27m",
+              "damageType": "Perfuração",
+              "description": "Versão maior e mais potente da besta leve. Recarregar uma besta pesada é uma ação padrão. Usar esta besta também exige as duas mãos.",
+              "ammo": {
+                "name": "Virotes (10)",
+                "manual": "TormentaRPG - Edição Revisada",
+                "price": "1 PO",
+                "weight": "0,5kg",
+                "description": "Pequenas setas de madeira que servem como munição para bestas. Uma caixa com 10 virotes custa 1 TP."
+              }
+            },
+            {
+              "name": "Pilum",
+              "manual": "Guerras Táuricas",
+              "price": "5 PO",
+              "weight": "1,5kg",
+              "distance": "6m",
+              "critical": "20 x3",
+              "damage": "1d6",
+              "extra": [
+                "Pode ser usado como arma de arremesso",
+                "-4 em jogadas de ataque corpo-a-corpo",
+                "+1 em jogadas de ataque contra alvos usando escudos"
+              ],
+              "description": "Uma azagaia com uma ponta metálica comprida e fina, usada para prender os escudos dos inimigos. O pilum fornece um bônus de +1 nas jogadas de ataque contra oponentes usando um escudo. Um pilum pode ser usado como uma arma de corpo-a-corpo, mas você sofre uma penalidade de –4 na jogada de ataque."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Armas Exóticas",
+      "subcategories": [
+        {
+          "name": "Corpo-a-corpo - Leves",
+          "items": [
+            {
+              "name": "Nunchaku",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "2 PO",
+              "damage": "1d6",
+              "weight": "1kg",
+              "extra": ["Arma de monge"],
+              "damageType": "Esmagamento",
+              "description": "Formado por dois bastões curtos de madeira ligados por uma corrente ou tira de couro, o nunchaku era usado por camponeses para separar o joio do trigo, sendo mais tarde adotado como arma. O nunchaku é também uma arma de monge (significa que pode ser usado com determinadas habilidades, como a rajada de golpes)."
+            },
+            {
+              "name": "Sai",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "5 PO",
+              "damage": "1d6",
+              "weight": "0,5kg",
+              "damageType": "Esmagamento",
+              "extra": ["Arma de monge", "+4 em jogadas de desarmar"],
+              "description": "Parecida com um grande garfo de metal, a adaga sai é própria para prender as armas do oponente. Você recebe +4 em jogadas de ataque para desarmar. A sai é uma arma de monge (significa que pode ser usada com determinadas habilidades, como rajada de golpes)."
+            },
+            {
+              "name": "Wakizashi",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "350 PO",
+              "damage": "1d8",
+              "critical": "19-20 x2",
+              "weight": "1kg",
+              "damageType": "Corte",
+              "extra": ["Obra-prima"],
+              "description": "Versão mais curta da katana. A katana e wakizashi, juntas, formam um conjunto chamado daisho — são as armas tradicionais do samurai. Alguns samurais carregam a wakizashi apenas como uma peça simbólica, enquanto outros a usam como arma secundária. Como a katana, a wakizashi é também uma arma obra-prima (+1 nas jogadas de ataque, custo já está incluso no preço)."
+            }
+          ]
+        },
+        {
+          "name": "Corpo-a-corpo - Uma mão",
+          "items": [
+            {
+              "name": "Chicote",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "1 PO",
+              "damage": "1d3",
+              "weight": "1kg",
+              "distance": "4,5m",
+              "damageType": "Corte",
+              "extra": ["+4 em jogadas de derrubar ou desarmar", "Acuidade"],
+              "description": "Você pode atacar um inimigo a até 4,5m com um chicote. Esta arma pode se enroscar nas mãos, pernas ou armas do adversário; você recebe +4 em jogadas de ataque para derrubar ou desarmar. O talento Acuidade com Arma se aplica ao chicote."
+            },
+            {
+              "name": "Flagelo",
+              "manual": "Guerras Táuricas",
+              "price": "20 PO",
+              "damage": "1d8",
+              "weight": "2,5kg",
+              "damageType": "Corte",
+              "description": "Um cabo do qual saem várias tiras de couro com ganchos afiados, o flagelo é feito para causar dor, e é tanto um instrumento de castigo quanto uma arma. Uma criatura atingida por um flagelo deve fazer um teste de Fortitude (CD igual a 10 + dano sofrido). Se falhar, sofre uma penalidade de –2 nas jogadas de ataque e nos testes de habilidade e perícia na rodada seguinte, devido à dor intensa."
+            },
+            {
+              "name": "Lança de Falange",
+              "manual": "Guerras Táuricas",
+              "price": "15 PO",
+              "damage": "1d8",
+              "weight": "3kg",
+              "damageType": "Perfuração",
+              "critical": "20 x3",
+              "extra": [
+                "Pode ser usado como arma de arremesso",
+                "Arma de haste",
+                "Se usado com 2 mãos, é considerado uma arma marcial"
+              ],
+              "description": "Uma versão mais comprida da lança comum, mas balanceada para ser usada com uma mão. A lança de falange pode ser arremessada, e é uma arma de haste. A lança de falange é muito grande para ser usada com uma mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos."
+            },
+            {
+              "name": "Manopla-Espada",
+              "manual": "Guerras Táuricas",
+              "price": "25 PO",
+              "damage": "1d8",
+              "weight": "2,5kg",
+              "damageType": "Corte",
+              "critical": "19-20 x2",
+              "extra": ["Adiciona +1 na CA"],
+              "description": "Uma braçadeira de metal na qual é fixada uma lâmina, que corre paralelamente ao antebraço do usuário. Como a manopla-espada protege seu braço, você recebe um bônus de +1 na CA. Se você usar uma manopla-espada em cada um de seus braços, e tiver o talento Combater com Duas Armas, o bônus aumenta para +2. Esta arma não pode ser desarmada."
+            },
+            {
+              "name": "Espada Bastarda",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "35 PO",
+              "damage": "1d10",
+              "critical": "19-20 x2",
+              "weight": "3kg",
+              "damageType": "Corte",
+              "extra": ["Se usado com 2 mãos, é considerado uma arma marcial"],
+              "description": "Maior e mais pesada que a espada longa, esta poderosa espada é usada por cavaleiros para vencer a proteção de uma armadura completa. Uma espada bastarda é muito grande para ser usada com uma só mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos."
+            },
+            {
+              "name": "Katana",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "400 PO",
+              "damage": "1d10",
+              "critical": "19-20 x2",
+              "weight": "3kg",
+              "extra": [
+                "Se usado com 2 mãos, é considerado uma arma marcial",
+                "Acuidade"
+              ],
+              "damageType": "Corte",
+              "description": "A espada tradicional do samurai tem lâmina levemente curva e apenas um gume. É muito grande para ser usada com uma só mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos. O talento Acuidade com Arma se aplica à katana."
+            },
+            {
+              "name": "Machado Anão",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "30 PO",
+              "damage": "1d10",
+              "weight": "4kg",
+              "damageType": "Corte",
+              "extra": ["Se usado com 2 mãos, é considerado uma arma marcial"],
+              "description": "Este poderoso machado é a arma preferida por onze entre dez guerreiros anões. Um machado anão é muito grande para ser usado com uma só mão sem treinamento especial; por isso é uma arma exótica. Ele pode ser usado como uma arma marcial de duas mãos."
+            },
+            {
+              "name": "Sabre Serrilhado",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "500 PO",
+              "damage": "1d8",
+              "weight": "2kg",
+              "critical": "19-20 *",
+              "damageType": "Corte",
+              "description": "Esta é uma arma cruel, de lâmina parecida com um serrote. Causa grande estrago quando atinge a carne, rasgando e destroçando. Devido a seus “dentes”, é comum que fique profundamente entrelaçada nas costelas (ou órgãos equivalentes).\n            Após um acerto crítico, em vez de causar dano multiplicado, o sabre fica preso — e requer uma ação de movimento para ser arrancado. Esse ato causa à vítima 1d6 pontos de dano adicional. Caso não seja removida, a arma causa 1d6 pontos de dano para cada ação padrão ou ação completa realizada pela vítima."
+            }
+          ]
+        },
+        {
+          "name": "Corpo-a-corpo - Duas mãos",
+          "items": [
+            {
+              "name": "Corrente com Cravos",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "25 PO",
+              "damage": "2d4",
+              "weight": "5kg",
+              "damageType": "Perfuração",
+              "extra": ["+4 em jogadas de derrubar ou desarmar", "Acuidade"],
+              "distance": "4,5m",
+              "description": "Você pode atacar um inimigo a até 4,5m com uma corrente com cravos. Esta arma pode se enroscar nas mãos, pernas ou armas do adversário; você recebe +4 em jogadas de ataque para derrubar ou desarmar. O talento Acuidade com Arma se aplica à corrente com cravos."
+            },
+            {
+              "name": "Machado Ogro",
+              "manual": "Guerras Táuricas",
+              "price": "30 PO",
+              "damage": "2d8",
+              "weight": "12kg",
+              "damageType": "Corte",
+              "extra": ["Diminui -1 na CA", "Necessário força 19 para usar"],
+              "description": "Esta arma exageradamente grande consiste de uma cabo longo com uma lâmina larga, grossa e pesada na ponta. É utilizada apenas pelos guerreiros mais brutais, como bárbaros das Montanhas Sanguinárias, por isso seu nome. O machado ogro é uma arma de haste. Por seu tamanho extremo, além do talento Usar Arma Exótica, exige Força 19 ou mais para ser manuseado e impõe uma penalidade de –1 na CA de seu usuário."
+            },
+            {
+              "name": "Espada de Duas Lâminas",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "100 PO",
+              "damage": "1d8/1d8",
+              "critical": "19-20 x2",
+              "weight": "5kg",
+              "damageType": "Corte",
+              "extra": ["Arma dupla"],
+              "description": "Duas espadas longas, presas em lados opostos de um mesmo cabo. É uma arma dupla."
+            },
+            {
+              "name": "Espada Táurica",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "50 PO",
+              "damage": "2d8",
+              "weight": "7,5kg",
+              "damageType": "Corte",
+              "extra": ["Necessário força 15 para usar"],
+              "description": "Esta espada gigantesca é usada pelos maiores campeões e gladiadores de Tapista. Além do talento Usar Arma Exótica, também exige Força 15 ou mais para ser manuseada."
+            },
+            {
+              "name": "Marreta Estilhaçadora",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "50 PO",
+              "damage": "1d12",
+              "weight": "7kg",
+              "critical": "19-20 *",
+              "damageType": "Esmagamento",
+              "description": "Este grande e desajeitado martelo de guerra é pouco eficaz em combate normal. Com cabo longo e uma imensa cabeça de metal, a marreta estilhaçadora conta com uma superfície de impacto larga, incapaz de causar muito dano real. Sua verdadeira função é despedaçar armaduras e carapaças de monstros — especialmente demônios da Tormenta.\n            Com um acerto crítico, em vez de causar dano multiplicado, a marreta reduz em 2 a classe de armadura da criatura atingida. Essa penalidade pode removida com uma magia cura completa ou regeneração (no caso de dano a armaduras naturais) ou com um teste bem-sucedido de Ofícios (CD 15 + dano a ser restaurado), no caso de dano a armaduras."
+            }
+          ]
+        },
+        {
+          "name": "Ataque à distância",
+          "items": [
+            {
+              "name": "Mosquete",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "500 PO",
+              "damage": "2d8",
+              "weight": "5kg",
+              "critical": "19-20 x3",
+              "distance": "45m",
+              "damageType": "Perfuração",
+              "description": "É uma arma de uso complicado, rejeitada pela maioria dos guerreiros, mas devastadora quando atinge o alvo. Recarregar um mosquete é uma ação padrão. Exige as duas mãos.",
+              "ammo": {
+                "name": "Munição (10)",
+                "manual": "TormentaRPG - Edição Revisada",
+                "price": "50 PO",
+                "weight": "1kg",
+                "description": "Inclui uma bolsa com 10 balas (pequenas esferas de chumbo) e pólvora para 10 tiros de mosquete ou pistola. Recarregar um mosquete ou pistola é uma ação padrão."
+              }
+            },
+            {
+              "name": "Pistola",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "250 PO",
+              "damage": "2d6",
+              "weight": "1,5kg",
+              "critical": "19-20 x3",
+              "distance": "15m",
+              "damageType": "Perfuração",
+              "extra": [
+                "Arma de uma mão",
+                "+1 em ataque se segurar com as duas mãos"
+              ],
+              "description": "A mais popular arma de fogo, tem capacidade para apenas um tiro. Requer apenas uma mão — mas, quando empunhada com as duas mãos, a estabilidade extra oferece um bônus de +1 em jogadas de ataque.\n            Devido ao tempo de recarga (uma ação padrão), alguns pistoleiros trazem consigo várias pistolas carregadas em vários coldres. Até seis pistolas podem ser transportadas desta forma. Assim o pistoleiro faz um disparo, descarta a arma (uma ação livre) e saca outra (uma ação de movimento), sendo capaz de disparar um tiro por rodada até que suas armas se esgotem.",
+              "ammo": {
+                "name": "Munição (10)",
+                "manual": "TormentaRPG - Edição Revisada",
+                "price": "35 PO",
+                "weight": "1kg",
+                "description": "Inclui uma bolsa com 10 balas (pequenas esferas de chumbo) e pólvora para 10 tiros de mosquete ou pistola. Recarregar um mosquete ou pistola é uma ação padrão."
+              }
+            },
+            {
+              "name": "Rede",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "20 PO",
+              "weight": "3kg",
+              "critical": "—",
+              "distance": "3m",
+              "extra": [
+                "Ataque de toque à distância ao invés de ataque normal"
+              ],
+              "description": "Uma rede de combate tem pequenos dentes em sua trama, e uma corda para controlar os inimigos presos. Você atira a rede, fazendo um ataque de toque à distância. Se acertar, a criatura fica enredada (–2 nas jogadas de ataque, CA, testes de Destreza, perícias baseadas em Destreza e Refl exos, e deslocamento reduzido à metade). Além disso, se você for bem-sucedido em um teste oposto de Força, a vítima só pode se mover até o limite da corda (9m).\n            A vítima pode se soltar com uma ação completa e um teste de Acrobacia (CD 20). A rede tem 5 pontos de vida, e se rasgar qualquer criatura enredada se solta automaticamente. A rede só pode ser usada contra criaturas até uma categoria de tamanho maiores que você."
+            },
+            {
+              "name": "Shuriken",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "1 PO",
+              "damage": "1d4",
+              "weight": "0,25kg",
+              "distance": "3m",
+              "damageType": "Perfuração",
+              "extra": [
+                "Arma de monge",
+                "Pode arremessar duas com uma ação padrão"
+              ],
+              "description": "Pequenos projéteis metálicos em forma de estrelas ou dardos. Você pode gastar uma ação padrão para arremesar duas shuriken. Esta é uma arma de monge (significa que pode ser usada com determinadas habilidades, como rajada de golpes)."
+            },
+            {
+              "name": "Tai-tai",
+              "manual": "TormentaRPG - Edição Revisada",
+              "price": "40 PO",
+              "damage": "2d4",
+              "distance": "24m",
+              "weight": "2kg",
+              "damageType": "Esmagamento",
+              "description": "Halflings são famosos por gostar de jogar pedras, seja como esporte ou forma de combate. Para esta finalidade, desenvolveram certos engenhos. O tai-tai é uma espécie de catapulta minúscula presa ao braço com fivelas. Com um movimento correto do pulso, lança uma pedra ou bala de chumbo tão longe quanto um arco lança uma flecha.\n            Recarregar o tai-tai é uma ação de movimento."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

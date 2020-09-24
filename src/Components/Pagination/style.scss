@@ -1,0 +1,37 @@
+@import "src/Shared/style.scss";
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px 0;
+
+  .page_item {
+    margin: 5px;
+
+    width: 30px;
+    height: 30px;
+
+    background: rgba($dark, 0.1);
+    border: 1px solid rgba($dark, 0.1);
+
+    text-align: center;
+    line-height: 28px;
+    color: $middle;
+
+    .page_link {
+      display: block;
+
+      color: $maincolor;
+      text-decoration: none;
+
+      transition: background-color 0.3s, color 0.3s;
+
+      &:hover {
+        background: $maincolor;
+        color: $light;
+      }
+    }
+  }
+}

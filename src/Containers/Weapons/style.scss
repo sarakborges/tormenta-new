@@ -1,0 +1,96 @@
+@import "src/Shared/style.scss";
+
+#weapons {
+  padding-bottom: 60px;
+
+  .weapons-filter {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    background: $black;
+
+    padding: 30px 0;
+  }
+
+  .weapons-categories {
+    .weapons-subcategories {
+      .subcategories-title {
+        padding-top: 30px;
+
+        font-size: 16px;
+
+        span:first-of-type {
+          color: $maincolor;
+        }
+      }
+
+      .weapons-items-list {
+        display: grid;
+        justify-items: center;
+        align-content: center;
+
+        grid-template-columns: repeat(auto-fill, 225px);
+        row-gap: 15px;
+        column-gap: 15px;
+
+        padding-top: 15px;
+
+        .weapon-item {
+          display: flex;
+          flex-flow: column;
+
+          width: 100%;
+          padding: 15px;
+
+          background: $darkner;
+
+          font-weight: 300;
+
+          .weapon-infos-list {
+            flex: 1;
+
+            .weapon-name {
+              font-weight: 600;
+            }
+
+            .weapon-type {
+              padding-bottom: 15px;
+
+              font-size: 12px;
+            }
+
+            .weapon-info {
+              font-size: 12px;
+
+              span:first-of-type {
+                padding-right: 5px;
+
+                font-weight: 600;
+              }
+            }
+
+            .weapon-extras {
+              font-size: 12px;
+              font-style: italic;
+
+              div {
+                padding-top: 10px;
+              }
+            }
+          }
+
+          .weapon-from {
+            justify-self: flex-end;
+
+            padding-top: 15px;
+
+            font-size: 12px;
+            color: $maincolor;
+          }
+        }
+      }
+    }
+  }
+}

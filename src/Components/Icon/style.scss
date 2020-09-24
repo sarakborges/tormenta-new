@@ -1,0 +1,43 @@
+@import "src/Shared/style.scss";
+
+.icon {
+  width: $iconsize;
+  height: $iconsize;
+  overflow: hidden;
+
+  font-family: $iconfont;
+  text-align: center;
+  font-size: $iconsize * 0.8;
+  line-height: $iconsize;
+
+  border-radius: 8px;
+
+  &.icon-round {
+    border-radius: 100%;
+    background: $maincolor;
+  }
+
+  &.small {
+    width: $iconsize * 0.75;
+    height: $iconsize * 0.75;
+
+    font-size: $iconsize * 0.75 * 0.8;
+    line-height: $iconsize * 0.75;
+  }
+
+  &.mini {
+    width: $iconsize * 0.5;
+    height: $iconsize * 0.5;
+
+    font-size: $iconsize * 0.5 * 0.8;
+    line-height: $iconsize * 0.5;
+  }
+
+  &.big {
+    width: $iconsize * 5;
+    height: $iconsize * 5;
+
+    font-size: $iconsize * 5 * 0.8;
+    line-height: $iconsize * 5;
+  }
+}
